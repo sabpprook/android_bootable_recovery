@@ -412,6 +412,7 @@ TWRP_REQUIRED_MODULES += \
     mkfs.fat \
     permissive.sh \
     simg2img_twrp \
+    ozip2zip \
     libbootloader_message_twrp \
     init.recovery.hlthchrg.rc \
     init.recovery.service.rc
@@ -853,6 +854,7 @@ include $(commands_TWRP_local_path)/injecttwrp/Android.mk \
     $(commands_TWRP_local_path)/etc/Android.mk \
     $(commands_TWRP_local_path)/toybox/Android.mk \
     $(commands_TWRP_local_path)/simg2img/Android.mk \
+    $(commands_TWRP_local_path)/ozip2zip/Android.mk \
     $(commands_TWRP_local_path)/adbbu/Android.mk \
     $(commands_TWRP_local_path)/libpixelflinger/Android.mk \
     $(commands_TWRP_local_path)/twrpDigest/Android.mk \
